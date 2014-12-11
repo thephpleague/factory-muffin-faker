@@ -1,0 +1,35 @@
+{
+    "name": "league/factory-muffin-faker",
+    "description": "The goal of this package is to wrap faker to make it super easy to use with factory muffin.",
+    "keywords": ["testing", "factory", "faker"],
+    "homepage": "http://factory-muffin.thephpleague.com/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Scott Robertson",
+            "email": "scottymeuk@gmail.com"
+        },
+        {
+            "name": "Graham Campbell",
+            "email": "graham@mineuk.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "fzaninotto/faker" : "1.4.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "fabpot/php-cs-fixer": "~1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "League\\FactoryMuffin\\Faker\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
