@@ -1,9 +1,9 @@
 Factory Muffin Faker
 ====================
 
-[![Build Status](https://img.shields.io/travis/thephpleague/factory-muffin-faker/master.svg?style=flat-square)](https://travis-ci.org/thephpleague/factory-muffin-faker)
-[![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/thephpleague/factory-muffin-faker/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/thephpleague/factory-muffin-faker/code-structure/master)
-[![Quality Score](https://img.shields.io/scrutinizer/g/thephpleague/factory-muffin-faker/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/thephpleague/factory-muffin-faker/?branch=master)
+[![Build Status](https://img.shields.io/travis/thephpleague/factory-muffin-faker.svg?style=flat-square)](https://travis-ci.org/thephpleague/factory-muffin-faker)
+[![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/thephpleague/factory-muffin-faker.svg?style=flat-square)](https://scrutinizer-ci.com/g/thephpleague/factory-muffin-faker/code-structure)
+[![Quality Score](https://img.shields.io/scrutinizer/g/thephpleague/factory-muffin-faker.svg?style=flat-square)](https://scrutinizer-ci.com/g/thephpleague/factory-muffin-faker)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
 [![Latest Version](https://img.shields.io/github/release/thephpleague/factory-muffin-faker.svg?style=flat-square)](https://github.com/thephpleague/factory-muffin-faker/releases)
 [![Total Downloads](https://img.shields.io/packagist/dt/league/factory-muffin-faker.svg?style=flat-square)](https://packagist.org/packages/league/factory-muffin-faker)
