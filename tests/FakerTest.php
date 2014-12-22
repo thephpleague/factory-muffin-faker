@@ -17,8 +17,8 @@ use League\FactoryMuffin\Faker\Facade as Faker;
 /**
  * This is the faker test class.
  *
- * @author  Scott Robertson <scottymeuk@gmail.com>
  * @author  Graham Campbell <graham@mineuk.com>
+ * @author  Scott Robertson <scottymeuk@gmail.com>
  * @license <https://github.com/thephpleague/factory-muffin-faker/blob/master/LICENSE> MIT
  */
 class FakerTest extends PHPUnit_Framework_TestCase

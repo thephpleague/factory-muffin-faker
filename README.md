@@ -39,7 +39,7 @@ Please check out our [contribution guidelines](CONTRIBUTING.md) for details.
 
 ## Credits
 
-Factory Muffin Faker is a wrapper around faker to make it super easy to use with Factory Muffin, and is currently maintained by [Scott Robertson](https://github.com/scottrobertson) and [Graham Campbell](https://github.com/GrahamCampbell). Thank you to all our wonderful [contributors](https://github.com/thephpleague/factory-muffin-faker/contributors) too.
+Factory Muffin Faker is a wrapper around faker to make it super easy to use with Factory Muffin, and is currently maintained by [Graham Campbell](https://github.com/GrahamCampbell) and [Scott Robertson](https://github.com/scottrobertson). Thank you to all our wonderful [contributors](https://github.com/thephpleague/factory-muffin-faker/contributors) too.
 
 
 ## License
