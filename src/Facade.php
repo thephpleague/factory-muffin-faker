@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * This file is part of Factory Muffin Faker.
  *
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
@@ -67,24 +67,24 @@ class Facade
      *
      * @codeCoverageIgnore
      *
-     * @param string $method
-     * @param array  $args
+     * @param string $method    The method name.
+     * @param array  $arguments The arguments.
      *
      * @return mixed
      */
-    public static function __callStatic($method, $args)
+    public static function __callStatic($method, $arguments)
     {
-        switch (count($args)) {
+        switch (count($arguments)) {
             case 0:
                 return self::instance()->$method();
             case 1:
-                return self::instance()->$method($args[0]);
+                return self::instance()->$method($arguments[0]);
             case 2:
-                return self::instance()->$method($args[0], $args[1]);
+                return self::instance()->$method($arguments[0], $arguments[1]);
             case 3:
-                return self::instance()->$method($args[0], $args[1], $args[2]);
+                return self::instance()->$method($arguments[0], $arguments[1], $arguments[2]);
             default:
-                return call_user_func_array([self::instance(), $method], $args);
+                return call_user_func_array([self::instance(), $method], $arguments);
         }
     }
 }

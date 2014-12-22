@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * This file is part of Factory Muffin Faker.
  *
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
@@ -45,17 +45,15 @@ class Faker
     private $locale = 'en_EN';
 
     /**
-     * Create a new instance.
+     * Create a new faker instance.
      *
-     * @param \Faker\Generator|null $generator
+     * @param \Faker\Generator|null $generator The generator instance.
      *
      * @return void
      */
     public function __construct($generator = null)
     {
-        if ($generator) {
-            $this->generator = $generator;
-        }
+        $this->generator = $generator;
     }
 
     /**
@@ -63,7 +61,7 @@ class Faker
      *
      * @param string $local The locale.
      *
-     * @return $this
+     * @return \League\FactoryMuffin\Faker\Faker
      */
     public function setLocale($local)
     {
@@ -91,9 +89,9 @@ class Faker
     /**
      * Add a provider.
      *
-     * @param \Faker\Provider\Base $provider
+     * @param \Faker\Provider\Base $provider The provider instance.
      *
-     * @return $this
+     * @return \League\FactoryMuffin\Faker\Faker
      */
     public function addProvider($provider)
     {
@@ -115,12 +113,12 @@ class Faker
     /**
      * Wrap a faker format in a closure.
      *
-     * @param string $formatter
-     * @param array  $arguments
+     * @param string $formatter The formatter.
+     * @param array  $arguments The arguments.
      *
      * @return \Closure
      */
-    public function format($formatter, $arguments = [])
+    public function format($formatter, array $arguments = [])
     {
         $generator = $this->getGenerator();
 
@@ -132,7 +130,7 @@ class Faker
     /**
      * Get a formatter.
      *
-     * @param string $formatter
+     * @param string $formatter The formatter.
      *
      * @return \Closure
      */
@@ -144,10 +142,10 @@ class Faker
     /**
      * Make the generated item unique.
      *
-     * @param bool $reset
-     * @param int  $maxRetries
+     * @param bool $reset      Should we reset the unique tracker?
+     * @param int  $maxRetries How many times should we retry?
      *
-     * @return static
+     * @return \League\FactoryMuffin\Faker\Faker
      */
     public function unique($reset = false, $maxRetries = 10000)
     {
@@ -157,10 +155,10 @@ class Faker
     /**
      * Make the generated item optional.
      *
-     * @param float $weight
-     * @param mixed $default
+     * @param float $weight  The probability of not receiving the default value.
+     * @param mixed $default The default item.
      *
-     * @return static
+     * @return \League\FactoryMuffin\Faker\Faker
      */
     public function optional($weight = 0.5, $default = null)
     {
@@ -170,13 +168,13 @@ class Faker
     /**
      * Dynamically wrap faker method calls in closures.
      *
-     * @param string $method
-     * @param array  $parameters
+     * @param string $method    The method name.
+     * @param array  $arguments The arguments.
      *
      * @return \Closure
      */
-    public function __call($method, $parameters)
+    public function __call($method, $arguments)
     {
-        return $this->format($method, $parameters);
+        return $this->format($method, $arguments);
     }
 }
