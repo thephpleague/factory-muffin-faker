@@ -1,5 +1,5 @@
-Factory Muffin Faker
-====================
+Factory Muffin Faker 1.0
+========================
 
 [![Build Status](https://img.shields.io/travis/thephpleague/factory-muffin-faker.svg?style=flat-square)](https://travis-ci.org/thephpleague/factory-muffin-faker)
 [![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/thephpleague/factory-muffin-faker.svg?style=flat-square)](https://scrutinizer-ci.com/g/thephpleague/factory-muffin-faker/code-structure)
@@ -8,9 +8,9 @@ Factory Muffin Faker
 [![Latest Version](https://img.shields.io/github/release/thephpleague/factory-muffin-faker.svg?style=flat-square)](https://github.com/thephpleague/factory-muffin-faker/releases)
 [![Total Downloads](https://img.shields.io/packagist/dt/league/factory-muffin-faker.svg?style=flat-square)](https://packagist.org/packages/league/factory-muffin-faker)
 
-The goal of this package is to wrap faker to make it super easy to use with Factory Muffin.
+The goal of this package is to wrap [Faker](https://github.com/fzaninotto/Faker) to make it super easy to use with [Factory Muffin](https://github.com/thephpleague/factory-muffin).
 
-Note that this library does not actually require factory muffin in order to work, so may be used else where too.
+Note that this library does not actually require Factory Muffin in order to work, so may be used else where too. The whole point of this library is to wrap Faker in closures so the actual generation can be executed at a later point.
 
 
 ## Installing
@@ -39,7 +39,7 @@ Please check out our [contribution guidelines](CONTRIBUTING.md) for details.
 
 ## Credits
 
-Factory Muffin Faker is a wrapper around faker to make it super easy to use with Factory Muffin, and is currently maintained by [Graham Campbell](https://github.com/GrahamCampbell) and [Scott Robertson](https://github.com/scottrobertson). Thank you to all our wonderful [contributors](https://github.com/thephpleague/factory-muffin-faker/contributors) too.
+Factory Muffin Faker is a wrapper around [Faker](https://github.com/fzaninotto/Faker) to make it super easy to use with [Factory Muffin](https://github.com/thephpleague/factory-muffin), and is currently maintained by [Graham Campbell](https://github.com/GrahamCampbell) and [Scott Robertson](https://github.com/scottrobertson). Thank you to all our wonderful [contributors](https://github.com/thephpleague/factory-muffin-faker/contributors) too.
 
 
 ## License
