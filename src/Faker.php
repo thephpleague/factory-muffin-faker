@@ -24,9 +24,8 @@ use Faker\Factory;
  * methods here should be when you're using method chaining after initially
  * using the facade.
  *
- * @author  Graham Campbell <graham@mineuk.com>
- * @author  Scott Robertson <scottymeuk@gmail.com>
- * @license <https://github.com/thephpleague/factory-muffin-faker/blob/master/LICENSE> MIT
+ * @author Graham Campbell <graham@mineuk.com>
+ * @author Scott Robertson <scottymeuk@gmail.com>
  */
 class Faker
 {
