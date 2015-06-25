@@ -3,7 +3,7 @@
 /*
  * This file is part of Factory Muffin Faker.
  *
- * (c) Graham Campbell <graham@mineuk.com>
+ * (c) Graham Campbell <graham@alt-three.com>
  * (c) Scott Robertson <scottymeuk@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
@@ -19,7 +19,7 @@ namespace League\FactoryMuffin\Faker;
  *
  * @see League\FactoryMuffin\Faker\Faker
  *
- * @author Graham Campbell <graham@mineuk.com>
+ * @author Graham Campbell <graham@alt-three.com>
  */
 class Facade
 {
