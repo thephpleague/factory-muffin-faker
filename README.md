@@ -1,6 +1,7 @@
 Factory Muffin Faker 1.0
 ========================
 
+[![StyleCI Status](https://styleci.io/repos/27880728/shield)](https://styleci.io/repos/27880728)
 [![Build Status](https://img.shields.io/travis/thephpleague/factory-muffin-faker.svg?style=flat-square)](https://travis-ci.org/thephpleague/factory-muffin-faker)
 [![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/thephpleague/factory-muffin-faker.svg?style=flat-square)](https://scrutinizer-ci.com/g/thephpleague/factory-muffin-faker/code-structure)
 [![Quality Score](https://img.shields.io/scrutinizer/g/thephpleague/factory-muffin-faker.svg?style=flat-square)](https://scrutinizer-ci.com/g/thephpleague/factory-muffin-faker)
