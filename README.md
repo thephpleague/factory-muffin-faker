@@ -1,4 +1,4 @@
-Factory Muffin Faker 1.1
+Factory Muffin Faker 2.0
 ========================
 
 [![StyleCI Status](https://styleci.io/repos/27880728/shield)](https://styleci.io/repos/27880728)
@@ -18,11 +18,11 @@ Note that this library does not actually require Factory Muffin in order to work
 
 [PHP](https://php.net) 5.4+ and [Composer](https://getcomposer.org) are required.
 
-In your composer.json, simply add `"league/factory-muffin-faker": "^1.0"` to your `"require-dev"` section:
+In your composer.json, simply add `"league/factory-muffin-faker": "^2.0"` to your `"require-dev"` section:
 ```json
 {
     "require-dev": {
-        "league/factory-muffin-faker": "^1.0"
+        "league/factory-muffin-faker": "^2.0"
     }
 }
 ```
