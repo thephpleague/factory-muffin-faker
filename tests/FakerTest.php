@@ -62,7 +62,7 @@ class FakerTest extends PHPUnit_Framework_TestCase
 
     public function testOptionalFalse()
     {
-        $optional = Faker::optional(0.0, 'foo');
+        $optional = Faker::optional(0, 'foo');
         $result = $optional->numberBetween(42, 42);
 
         $this->assertInstanceOf('League\FactoryMuffin\Faker\Faker', $optional);
@@ -71,7 +71,7 @@ class FakerTest extends PHPUnit_Framework_TestCase
 
     public function testOptionalTrue()
     {
-        $optional = Faker::optional(1.0, 'foo');
+        $optional = Faker::optional(100, 'foo');
         $result = $optional->numberBetween(42, 42);
 
         $this->assertInstanceOf('League\FactoryMuffin\Faker\Faker', $optional);
