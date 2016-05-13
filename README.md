@@ -1,4 +1,4 @@
-Factory Muffin Faker 1.0
+Factory Muffin Faker 1.1
 ========================
 
 [![StyleCI Status](https://styleci.io/repos/27880728/shield)](https://styleci.io/repos/27880728)
