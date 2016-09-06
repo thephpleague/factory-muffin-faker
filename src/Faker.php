@@ -31,7 +31,6 @@ use Faker\Factory;
  * @method string title
  * @method string titleMale
  * @method string titleFemale
- *
  * @method string citySuffix
  * @method string streetSuffix
  * @method string buildingNumber
@@ -43,18 +42,14 @@ use Faker\Factory;
  * @method string country
  * @method float  latitude
  * @method float  longitude
- *
  * @method string ean13
  * @method string ean8
  * @method string isbn13
  * @method string isbn10
- *
  * @method string phoneNumber
- *
  * @method string company
  * @method string companySuffix
  * @method string jobTitle
- *
  * @method string creditCardType
  * @method string creditCardNumber($type = null, $formatted = false, $separator = '-')
  * @method \DateTime $creditCardExpirationDate
@@ -64,7 +59,6 @@ use Faker\Factory;
  * @method string iban($countryCode = null, $prefix = '', $length = null)
  * @method string swiftBicNumber
  * @method string vat
- *
  * @method string word
  * @method string|array words($nb = 3, $asText = false)
  * @method string sentence($nbWords = 6, $variableNbWords = true)
@@ -72,9 +66,7 @@ use Faker\Factory;
  * @method string paragraph($nbSentences = 3, $variableNbSentences = true)
  * @method string|array paragraphs($nb = 3, $asText = false)
  * @method string text($maxNbChars = 200)
- *
  * @method string realText($maxNbChars = 200, $indexSize = 2)
- *
  * @method string email
  * @method string safeEmail
  * @method string freeEmail
@@ -92,7 +84,6 @@ use Faker\Factory;
  * @method string ipv6
  * @method string localIpv4
  * @method string macAddress
- *
  * @method int       unixTime
  * @method \DateTime dateTime
  * @method \DateTime dateTimeAD
@@ -113,7 +104,6 @@ use Faker\Factory;
  * @method string time($format = 'H:i:s', $max = 'now')
  * @method \DateTime dateTimeBetween($startDate = '-30 years', $endDate = 'now')
  * @method \DateTime dateTimeInInterval($date = '-30 years', $interval = '+5 days', $timezone = null)
- *
  * @method string md5
  * @method string sha1
  * @method string sha256
@@ -122,8 +112,7 @@ use Faker\Factory;
  * @method string countryISOAlpha3
  * @method string languageCode
  * @method string currencyCode
- * @method boolean boolean($chanceOfGettingTrue = 50)
- *
+ * @method bool boolean($chanceOfGettingTrue = 50)
  * @method int    randomDigit
  * @method int    randomDigitNotNull
  * @method string randomLetter
@@ -144,9 +133,7 @@ use Faker\Factory;
  * @method string regexify($regex = '')
  * @method string toLower($string = '')
  * @method string toUpper($string = '')
- *
- * @method integer biasedNumberBetween($min = 0, $max = 100, $function = 'sqrt')
- *
+ * @method int biasedNumberBetween($min = 0, $max = 100, $function = 'sqrt')
  * @method string macProcessor
  * @method string linuxProcessor
  * @method string userAgent
@@ -158,16 +145,12 @@ use Faker\Factory;
  * @method string windowsPlatformToken
  * @method string macPlatformToken
  * @method string linuxPlatformToken
- *
  * @method string uuid
- *
  * @method string mimeType
  * @method string fileExtension
  * @method string file($sourceDirectory = '/tmp', $targetDirectory = '/tmp', $fullPath = true)
- *
  * @method string imageUrl($width = 640, $height = 480, $category = null, $randomize = true, $word = null, $gray = false)
  * @method string image($dir = null, $width = 640, $height = 480, $category = null, $fullPath = true, $randomize = true, $word = null)
- *
  * @method string hexColor
  * @method string safeHexColor
  * @method string rgbColor
