@@ -28,7 +28,27 @@ In your composer.json, simply add `"league/factory-muffin-faker": "^2.0"` to you
 ```
 
 
-## Usage
+## Simple usage
+
+```php
+<?php
+// tests/factory/User.php
+
+use Core\User;
+use  League\FactoryMuffin\Faker\Facade as Faker;
+
+$fm->define(User::class)->setDefinitions([
+    "fullname"        => Faker::firstNameMale(),
+    "email"           => Faker::email(),
+    "phone_number"    => Faker::randomNumber(8),
+    "age"             => Faker::numberBetween(20, 40)
+]);
+
+```
+
+
+
+## Documentation
 
 Documentation coming soon.
 
