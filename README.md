@@ -32,6 +32,7 @@ In your composer.json, simply add `"league/factory-muffin-faker": "^2.0"` to you
 
 ```php
 <?php
+
 // tests/factory/User.php
 
 use Core\User;
