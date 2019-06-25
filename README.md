@@ -35,12 +35,17 @@ Documentation coming soon.
 
 ## Contributing
 
-Please check out our [contribution guidelines](CONTRIBUTING.md) for details.
+Please check out our [contribution guidelines](.github/CONTRIBUTING.md) for details.
 
 
 ## Credits
 
 Factory Muffin Faker is a wrapper around [Faker](https://github.com/fzaninotto/Faker) to make it super easy to use with [Factory Muffin](https://github.com/thephpleague/factory-muffin), and is currently maintained by [Graham Campbell](https://github.com/GrahamCampbell). Thank you to all our wonderful [contributors](https://github.com/thephpleague/factory-muffin-faker/contributors) too.
+
+
+## Security
+
+If you discover a security vulnerability within this package, please send an email to Graham Campbell at graham@alt-three.com. All security vulnerabilities will be promptly addressed. You may view our full security policy [here](https://github.com/thephpleague/factory-muffin-faker/security/policy).
 
 
 ## License
