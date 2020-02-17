@@ -1,10 +1,8 @@
-Factory Muffin Faker 2.1
+Factory Muffin Faker 2.2
 ========================
 
 [![StyleCI Status](https://styleci.io/repos/27880728/shield)](https://styleci.io/repos/27880728)
 [![Build Status](https://img.shields.io/travis/thephpleague/factory-muffin-faker.svg?style=flat-square)](https://travis-ci.org/thephpleague/factory-muffin-faker)
-[![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/thephpleague/factory-muffin-faker.svg?style=flat-square)](https://scrutinizer-ci.com/g/thephpleague/factory-muffin-faker/code-structure)
-[![Quality Score](https://img.shields.io/scrutinizer/g/thephpleague/factory-muffin-faker.svg?style=flat-square)](https://scrutinizer-ci.com/g/thephpleague/factory-muffin-faker)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
 [![Latest Version](https://img.shields.io/github/release/thephpleague/factory-muffin-faker.svg?style=flat-square)](https://github.com/thephpleague/factory-muffin-faker/releases)
 [![Total Downloads](https://img.shields.io/packagist/dt/league/factory-muffin-faker.svg?style=flat-square)](https://packagist.org/packages/league/factory-muffin-faker)
@@ -18,19 +16,14 @@ Note that this library does not actually require Factory Muffin in order to work
 
 [PHP](https://php.net) 5.4+ and [Composer](https://getcomposer.org) are required.
 
-In your composer.json, simply add `"league/factory-muffin-faker": "^2.1"` to your `"require-dev"` section:
+In your composer.json, simply add `"league/factory-muffin-faker": "^2.2"` to your `"require-dev"` section:
 ```json
 {
     "require-dev": {
-        "league/factory-muffin-faker": "^2.1"
+        "league/factory-muffin-faker": "^2.2"
     }
 }
 ```
-
-
-## Usage
-
-Documentation coming soon.
 
 
 ## Contributing
