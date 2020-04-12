@@ -24,7 +24,7 @@ matrix:
       dist: bionic
 
 install:
-  - travis_retry composer install --no-suggest --prefer-dist -n -o
+  - travis_retry composer install --prefer-dist -n -o
 
 script:
   - vendor/bin/phpunit
