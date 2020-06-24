@@ -18,25 +18,6 @@ namespace League\FactoryMuffin\Faker;
  *
  * @see League\FactoryMuffin\Faker\Faker
  *
- * @mixin \Faker\Provider\Address
- * @mixin \Faker\Provider\Barcode
- * @mixin \Faker\Provider\Base
- * @mixin \Faker\Provider\Biased
- * @mixin \Faker\Provider\Color
- * @mixin \Faker\Provider\Company
- * @mixin \Faker\Provider\DateTime
- * @mixin \Faker\Provider\File
- * @mixin \Faker\Provider\Image
- * @mixin \Faker\Provider\Internet
- * @mixin \Faker\Provider\Lorem
- * @mixin \Faker\Provider\Miscellaneous
- * @mixin \Faker\Provider\Payment
- * @mixin \Faker\Provider\Person
- * @mixin \Faker\Provider\PhoneNumber
- * @mixin \Faker\Provider\Text
- * @mixin \Faker\Provider\UserAgent
- * @mixin \Faker\Provider\Uuid
- *
  * @author Graham Campbell <graham@alt-three.com>
  */
 class Facade
