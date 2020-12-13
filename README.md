@@ -1,7 +1,7 @@
 Factory Muffin Faker 2.3
 ========================
 
-[![StyleCI Status](https://styleci.io/repos/27880728/shield)](https://styleci.io/repos/27880728)
+[![StyleCI Status](https://github.styleci.io/repos/27880728/shield)](https://github.styleci.io/repos/27880728)
 [![Build Status](https://img.shields.io/github/workflow/status/thephpleague/factory-muffin-faker/Tests?label=Tests&style=flat-square)](https://github.com/thephpleague/factory-muffin-faker/actions?query=workflow%3ATests)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
 [![Latest Version](https://img.shields.io/github/release/thephpleague/factory-muffin-faker.svg?style=flat-square)](https://github.com/thephpleague/factory-muffin-faker/releases)
