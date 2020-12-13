@@ -10,13 +10,14 @@
  */
 
 use League\FactoryMuffin\Faker\Facade as Faker;
+use PHPUnit\Framework\TestCase;
 
 /**
  * This is the faker test class.
  *
  * @author Graham Campbell <graham@alt-three.com>
  */
-class FakerTest extends PHPUnit_Framework_TestCase
+class FakerTest extends TestCase
 {
     public function testGetGenerator()
     {
