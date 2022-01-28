@@ -27,7 +27,7 @@ class Facade
      *
      * @var \League\FactoryMuffin\Faker\Faker
      */
-    private static $instance;
+    protected static $instance;
 
     /**
      * Get the underlying faker instance.
